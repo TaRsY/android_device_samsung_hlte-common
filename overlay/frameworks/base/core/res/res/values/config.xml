@@ -20,6 +20,8 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
+    <!-- Hardware keys enable/disable -->
+ <!--    <bool name="config_hwKeysPref">true</bool> -->
 
     <bool name="config_deskDockEnablesAccelerometer">false</bool>
 
@@ -259,7 +261,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">65</integer>
+   <!--   <integer name="config_deviceHardwareWakeKeys">65</integer>-->
 
     <!-- Configure mobile tcp buffer sizes in the form:
          rat-name:rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max
@@ -290,7 +292,7 @@
     <!-- <bool name="config_enableTorch">true</bool> -->
 
     <!-- Boolean to enable stylus gestures -->
-    <bool name="config_stylusGestures">true</bool>
+  <!--  <bool name="config_stylusGestures">true</bool> -->
 
     <!-- Performance profiles -->
     <string name="config_perf_profile_prop">sys.perf.profile</string>
