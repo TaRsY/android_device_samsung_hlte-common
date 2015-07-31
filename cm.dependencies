@@ -4,6 +4,16 @@
     "target_path": "device/samsung/msm8974-common"
   },
   {
+    "repository": "SlimSaber/uber_arm-androideabi-4.9-cortex-a15",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15",
+    "branch":      "master"
+  },
+  {
+   "repository": "SlimSaber/uber_arm-eabi-4.9-cortex-a15",
+   "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a15",
+   "branch":      "master"
+  },
+  {
     "repository": "android_kernel_samsung_hlte",
     "target_path": "kernel/samsung/hlte"
   }

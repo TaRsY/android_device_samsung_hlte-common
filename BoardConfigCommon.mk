@@ -37,7 +37,9 @@ TARGET_KERNEL_CONFIG := msm8974_sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_eur_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/hlte
-
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-cortex-a15/bin
+TARGET_KERNEL_TC_SUFFIX := arm-eabi-
 # Audio
 QCOM_CSDCLIENT_ENABLED := false
 AUDIO_FEATURE_LOW_LATENCY_PRIMARY := false
